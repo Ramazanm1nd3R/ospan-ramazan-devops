@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: ospan-ramazan-devops
+    container_name: ospan-ramazan-compose
+    environment:
+      STUDENT_NAME: Ramazan
+      STUDENT_SURNAME: Ospan
+      STUDENT_GROUP: IT2-2310
+      STUDENT_ID: "38045"

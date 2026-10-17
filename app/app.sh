@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "================================"
+echo "DevOps Student Application"
+echo "================================"
+echo "Name: ${STUDENT_NAME:-Ramazan}"
+echo "Surname: ${STUDENT_SURNAME:-Ospan}"
+echo "Group: ${STUDENT_GROUP:-IT2-2310}"
+echo "Student ID: ${STUDENT_ID:-38045}"
+echo "Application is running successfully!"
